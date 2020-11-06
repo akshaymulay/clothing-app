@@ -1,0 +1,28 @@
+[+]express js for routing and http request
+[+]Laravel best folder structure
+[+]npm for external packages
+[+]NPM init to create package.json file
+[+]Public Consist Of assets such as css,js fonts
+[+]App consist of backend logic
+[+]http consiste of request from routing such as controller,middleware
+[+]models consist of database collections
+[+]controllers consist of controllers which are apply on routes
+[+]middleware consist of authentication
+[+]config consist of configuration for middelware
+[+]Resources Consist Of all views saas files,js files,templates
+ 	
+ 	app.css client code
+ 	app.scss saas css which coverts into basic css
+ 	views consist index page,cart page
+ [+]routes consist of all routing
+
+ 	web.js consist of routing of files
+ 	api.js consist of routing of api
+ [+]node modules consist of all installed dependencies
+ [+]pacakage.jso consist of installde dependencies details project details
+ ------------------------------------------------------------------------------------------------------------------
+ steps
+ npm install exprees ejs express-ejs-layouts 
+ exprees for server,ejs for embeds js in html
+ npm install nodemon -D when you save or change files before nodemon we have to start server every times but using nodemon server start automatically when we hits save.
+ create express server
