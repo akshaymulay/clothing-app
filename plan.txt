@@ -20,9 +20,57 @@
  	api.js consist of routing of api
  [+]node modules consist of all installed dependencies
  [+]pacakage.jso consist of installde dependencies details project details
+ [+].gitignore is used to ignore files during git push
  ------------------------------------------------------------------------------------------------------------------
  steps
  npm install exprees ejs express-ejs-layouts 
  exprees for server,ejs for embeds js in html
  npm install nodemon -D when you save or change files before nodemon we have to start server every times but using nodemon server start automatically when we hits save.
- create express server
+ create express server.
+ installing laravel-mix we are using modern js and saas to compile such saas and modern js we need webpack but for more covinent we are using laraval-mix
+ we have to copy webpack.mix.js to root folder to config compiletion
+ after config we have to config package.json file for script
+ after that we have to install node env as dependecy of laravel-mix.
+ we are using talwind css asa cdn 
+ adding lato fonts
+ we get response as html mime thats why our project css is not working for that we are config it in assets
+ devloping home page setting some color variables and css with start of nav
+mx-auto for center
+flex for shift right slightly 
+items-center for aligned in center
+justify-between shift more rigth
+px for padding left right
+placing routes in routes folder with a function which export and called in server.js
+remember that always placed route after layout
+to perform routes logic we use controllers
+controller uses function with factory patterns
+after that import items.json
+then install mongose
+import
+connection
+model_create schema
+perform find pass data to home
+session
+install express-session for store data in session
+session depends on cookie
+we use secret key
+to store such secret key we use secured method we save that secure key in env file
+after session congif it uses cookies
+when we hit req its store session req res in ram....but for production level we store such response in db
+add to cart button has class we hit those class and add mapping with adding event listner 
+when we hit the button it shows event occured we have to store that detail in session
+for that we use data-bind which bind data
+for data bind it uses json format then we have to parse those object 
+update-cart section consist of all cart logic
+for authentication we are using passport
+create post route for register
+express dont know about recieved data
+create user collection
+register validation 
+add data
+password encryption
+passport config
+config folder login logic
+perform login post route with login logic
+after that logout
+and prevent user to acces login and reg routes when they are login
